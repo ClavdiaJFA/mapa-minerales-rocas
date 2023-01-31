@@ -1,0 +1,49 @@
+body {
+    background-color:rgb(210, 234, 255);
+  }
+
+  header {
+    background-color: #ffffff;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin: 0;
+    color: black;
+  }
+  
+
+.land{
+    fill: #CCCCCC;
+    fill-opacity: 1;
+    stroke:rgb(26, 24, 24);
+    stroke-opacity: 1;
+    stroke-width:0.5;				
+    }
+    
+path:hover, circle:hover {
+    stroke: #756261 !important;
+    stroke-width:2px;
+    stroke-linejoin: round;
+    fill: #756261 !important;
+    cursor: pointer;
+  }
+ 
+  #info-box {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 12px;
+    font-family: arial;
+  }
+  
